@@ -32,7 +32,7 @@ end
 
 def kesha_maker(array)
   new_array = []
-  array.each do |str| array.gsub "s","$"
+  array.each do |str| str.gsub "s","$"
     new_array<< array
     end 
   new_array
@@ -53,9 +53,11 @@ end
 
 def add_s(array)
   ltr = s
-  array.each do |ltr| ltr.insert('s')
+  array.each do |ltr| 
+    array<=> array[-1].insert ("s")
     
   end 
   #array[element]<< "s" to each element 
     # except of 2nd element
+array
 end 
