@@ -33,8 +33,8 @@ end
 def kesha_maker(array)
   new_array = []
   array.each do |str| 
-    str.sort 's'<=> '$'
-    new_array<< array
+    new_array<< str.sort 's'<=> '$'
+    
     end 
   new_array
 end   
